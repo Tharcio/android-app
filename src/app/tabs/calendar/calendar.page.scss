@@ -5,7 +5,8 @@
 }
 
 .content{
-  background-color: #59ABB3;
+  background-color: white;
+  overflow-x: scroll;
 }
 
 .header-image{
@@ -41,6 +42,13 @@
     overflow-y: scroll;
     white-space: nowrap;
   }
+  .conteudo-dias{
+    width:110px;
+    height:100%;
+    float:left;
+    background-color: #59ABB3;
+    white-space: nowrap;
+  }
 .dia{
   text-indent: 10%;
   height: 30%;
@@ -49,20 +57,6 @@
   background-color:#59ABB3;
   color: #59ABB3;
   --backgroud:#59ABB3;
-}
-
-ion-card{
-  backgroud-color:#13455E;
-  border-block-end: 0px;
-  border-block-start: 0px;
-  border-block-start-color: #59ABB3;
-  border-block-end-color: #59ABB3;
-  border-width: thin;
-  margin-block-end: 0px;
-  margin-block-start: 0px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  shape-margin: 0px;
 }
 
 .num_dia{
@@ -96,7 +90,6 @@ ion-card{
 }
 
 ion-list{
-  background: #59ABB3;
   border-block-end: 0px;
   border-block-start: 0px;
   border-collapse: collapse;
@@ -106,19 +99,4 @@ ion-list{
   margin-inline-end: 0px;
   margin-inline-start: 0px;
   shape-margin: 0px;
-}
-
-.zero{
-  border-block-end: 0px;
-  border-block-start: 0px;
-  border-block-start-color: #59ABB3;
-  border-block-end-color: #59ABB3;
-  border-width: thin;
-  margin-block-end: 0px;
-  margin-block-start: 0px;
-  shape-margin: 0px;
-}
-
-:root {
-  --ion-background-color: #59ABB3
 }
